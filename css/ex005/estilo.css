@@ -1,0 +1,28 @@
+#principal {
+    border-color: blueviolet;
+    border-width: 0px;
+    border-style: solid;
+    width: 920px;
+    height: auto;
+}
+
+.noticia {
+    background: rgb(209, 207, 207);
+    padding: 5px;
+    margin: 8px;
+    width: 280px;
+    float: left;
+
+}
+
+.clear {
+    clear: both;
+}
+.imagens-galeria {
+    background: white;
+    padding: 5px;
+    margin: 8px;
+    width: 280px;
+    height: 250px;
+    float: left;
+}
