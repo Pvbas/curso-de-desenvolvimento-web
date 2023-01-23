@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos inline, block e inline-block</title>
+    <style type="text/css">
+        .borda {
+            border-width: 2px;
+            border-color: grey;
+            border-style: solid;
+        }
+        .borda2 {
+            border-width: 2px;
+            border-color: grey;
+            border-style: solid;
+            display: inline;
+        }
+        .borda3 {
+            border-width: 2px;
+            border-color: grey;
+            border-style: solid;
+            display: block;
+        }
+        .borda4 {
+            border-width: 2px;
+            border-color: grey;
+            border-style: solid;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <!--por padrao o h1 e um elemento block-->
+    <h1 class="borda">Bloco 1</h1>
+    <h1 class="borda">Bloco 2</h1>
+    <h1 class="borda2">Bloco 1</h1>
+    <h1 class="borda2">Bloco 2</h1>
+      <hr>
+    <!--por padrao a span e um elemento inline-->  
+    <span class="borda">inline</span>
+    <span class="borda">inline</span>
+    <span class="borda3">inline</span>
+    <span class="borda3">inline</span>
+      
+    <hr>
+      
+    <span class="borda4">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    </span>
+    <span class="borda4">inline</span> 
+
+</body>
+</html>

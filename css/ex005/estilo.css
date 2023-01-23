@@ -1,3 +1,10 @@
+body, .noticias, .artigos, .artigo { display:flex }
+body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #principal {
     border-color: blueviolet;
     border-width: 0px;
@@ -6,23 +13,34 @@
     height: auto;
 }
 
+.noticias {
+    width: 100%;
+}
+
 .noticia {
     background: rgb(209, 207, 207);
     padding: 5px;
     margin: 8px;
     width: 280px;
-    float: left;
-
 }
 
 .clear {
     clear: both;
 }
+
 .imagens-galeria {
     background: white;
     padding: 5px;
     margin: 8px;
     width: 280px;
-    height: 250px;
-    float: left;
+    height: 250px;   
+}
+
+.artigos {
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.artigo {
+    flex-direction: column;
 }
