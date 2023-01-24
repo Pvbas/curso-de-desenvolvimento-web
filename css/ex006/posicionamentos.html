@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>posicionamentos (static, relative, absolute e fixed)</title>
+    <style type="text/css">
+        body {
+            background-color: #007fc7;
+        }
+
+        #container {
+            background-color: #FFF;
+            width: 800px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+
+
+        p {
+            width: 300px;
+        }
+
+        .fixed {
+            border: 2px solid blue;
+            position: fixed;
+            background: #f2f2f2;
+            top: 0px;
+            right: 0px;
+            margin: 0;
+        }
+
+        .absolute {
+            border: 2px solid blue;
+            position: absolute;
+            background: #f2f2f2;
+            top: 80px;
+            right: 20px;
+        }
+
+        .relative {
+            border: 1px solid red;
+            position: relative;
+            /*top, right, bottom e left*/
+            /*top: 0px;
+            left: 0px;
+            right: 20px;
+            bottom: -20px;*/
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1>Posicionamentos</h1>
+
+        <p>
+            P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </p>
+
+        <p class="fixed">
+            P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </p>
+
+        <p>
+            P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </p>
+        <p>
+            P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </p>
+        <p>
+            P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </p>
+        <p>
+            P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </p>
+        <p>
+            P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        </p>
+
+    </div>
+</body>
+
+</html>
